@@ -1,0 +1,1645 @@
+Package: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 320992
+Depends: lsb-release, libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.6), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrender1, libxt6
+Recommends: xul-ext-ubufox, libcanberra0, libdbusmenu-glib4, libdbusmenu-gtk4
+Suggests: fonts-lyx
+Replaces: kubuntu-firefox-installer
+Provides: gnome-www-browser, iceweasel, www-browser
+Filename: pool/main/f/firefox_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 73359252
+MD5sum: e1572778512b3a793b30886b1ac2f381
+SHA1: 33a8312139db45dd79af75223f3adf5d36ebc865
+SHA256: 8213a07484618a34e31a127e23af95daf3b40a58bceca69353f9b88079602438
+Section: web
+Priority: optional
+Description: Safe and easy web browser from Mozilla
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+Xul-Appid: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+
+Package: firefox-dev
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 209
+Depends: firefox (= 44.0.2+build1-0ubuntu0.14.04.1)
+Conflicts: xulrunner-1.9-dev, xulrunner-1.9.2-dev, xulrunner-2.0-dev
+Filename: pool/main/f/firefox-dev_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 140418
+MD5sum: cb2279e15657515aaaaa240bac897ee2
+SHA1: d6b62c61c9b10684999485fce17935e30ebdad81
+SHA256: f26c7e575e98f5ad82b4e9afb270aba517e65ee1f709f144de1c302f6d1d79ea
+Section: devel
+Priority: extra
+Description: Safe and easy web browser from Mozilla - development files
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the headers and SDK for building plugins with Firefox
+
+Package: firefox-globalmenu
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 150
+Depends: firefox
+Filename: pool/main/f/firefox-globalmenu_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127480
+MD5sum: 891c9ee3da30ad98355795d5293d2c6d
+SHA1: e7946d8843972356c4e87fcca69e8f568407402c
+SHA256: 5f296156ce2c693733497f707c986d2e7c81693349a2555bb4435664ddc7b0fe
+Section: oldlibs
+Priority: extra
+Description: Safe and easy web browser from Mozilla (transitional package)
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: firefox-locale-af
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 645
+Replaces: language-pack-af-base
+Filename: pool/main/f/firefox-locale-af_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 587216
+MD5sum: 7c0ba066d16a4eb31b89ee4542c95eec
+SHA1: 3b87f17ee29975e30c817961ecd5532ef4544ac3
+SHA256: 2dded7aecb6f7611db5cb30ef325ef913b084b47243d606af07171a59beee97b
+Section: web
+Priority: optional
+Description: Afrikaans language pack for Firefox
+ This package contains Afrikaans translations and search plugins
+ for Firefox
+
+Package: firefox-locale-an
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 622
+Replaces: language-pack-an-base
+Filename: pool/main/f/firefox-locale-an_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 565036
+MD5sum: 390a59bc451a39a7738234f2f0c8c613
+SHA1: f75c8b6d63c3a00bde0eff46dbdb0c81dacce179
+SHA256: 3965ddfcdb5a00bdc95cded89dacf758a679a2dba95bf3ba77b91ebf01520dc5
+Section: web
+Priority: optional
+Description: Aragonese language pack for Firefox
+ This package contains Aragonese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ar
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 680
+Replaces: language-pack-ar-base
+Filename: pool/main/f/firefox-locale-ar_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 623908
+MD5sum: 69112ef7a1a6be1803dd73db6ab2e078
+SHA1: e1b25ae55b5e9c66396d414bfe32e4018d7d6a3c
+SHA256: 1dcb5735ab26a3e55100d45624b5e6f6fae9f13bd8fdd8d66d36eedd0c63b9c0
+Section: web
+Priority: optional
+Description: Arabic language pack for Firefox
+ This package contains Arabic translations and search plugins
+ for Firefox
+
+Package: firefox-locale-as
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 671
+Replaces: language-pack-as-base
+Filename: pool/main/f/firefox-locale-as_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 614608
+MD5sum: f4652151d93ccceea627665e8324a85c
+SHA1: 162add07f77b2e9654b2faa6298fee50f44ff742
+SHA256: 28645bd6544fff89d0142553c4bfb263cee491d54c2307dd8132298a8836403b
+Section: web
+Priority: optional
+Description: Assamese language pack for Firefox
+ This package contains Assamese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ast
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 569
+Replaces: language-pack-ast-base
+Filename: pool/main/f/firefox-locale-ast_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 508082
+MD5sum: 579e890c8ef6afaf207c508eaf7602b7
+SHA1: 459e2de0062f4664b04710e4cd08b482a9d106fe
+SHA256: e0571315650fec558773e5f737607debbf3c1e07fa899d6c4ccdcebc760a33d5
+Section: web
+Priority: optional
+Description: Asturian language pack for Firefox
+ This package contains Asturian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-az
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 652
+Replaces: language-pack-az-base
+Filename: pool/main/f/firefox-locale-az_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 594698
+MD5sum: df611b5c837331e6978aeafdbba19a6d
+SHA1: f634c2ef1b60783980e360cc21bcd25316de40a5
+SHA256: 6f960ceddcea1aaad914547a2d35a6518d2c372ed96eb35b9b4bf179b6e5be1c
+Section: web
+Priority: optional
+Description: Azerbaijani language pack for Firefox
+ This package contains Azerbaijani translations and search plugins
+ for Firefox
+
+Package: firefox-locale-be
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 613
+Replaces: language-pack-be-base
+Filename: pool/main/f/firefox-locale-be_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 554696
+MD5sum: 58c7a31ea95d98128d2de255c09cc256
+SHA1: ba758f5d2986a1c692999b7b6685bf6ea4d0e44d
+SHA256: abca21f0f0d2d47ffafe91195922083a072471536c44270fb4d7002bb4f53273
+Section: web
+Priority: optional
+Description: Belarusian language pack for Firefox
+ This package contains Belarusian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-bg
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 654
+Replaces: language-pack-bg-base
+Filename: pool/main/f/firefox-locale-bg_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 597260
+MD5sum: f24066dd27e718351bf99d215147b1a9
+SHA1: 105f8406a42786b494d39b88d932f19033529112
+SHA256: 42871b7cf496732dc9f9ff1b8d57903767216b0bd041cdfec37c518b9bd2163e
+Section: web
+Priority: optional
+Description: Bulgarian language pack for Firefox
+ This package contains Bulgarian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-bn
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 1236
+Replaces: language-pack-bn-base
+Filename: pool/main/f/firefox-locale-bn_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 1088562
+MD5sum: eca4480224ded9fcfa8b362df550a075
+SHA1: 8d901492197a98d94cde9065c88544bb48d6af78
+SHA256: 6a5eadd43b2e50e55c05a45e0bd832876a0a2316bb2c50ee3ae32eadc2b1429c
+Section: web
+Priority: optional
+Description: Bengali language pack for Firefox
+ This package contains Bengali translations and search plugins
+ for Firefox
+
+Package: firefox-locale-br
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 604
+Replaces: language-pack-br-base
+Filename: pool/main/f/firefox-locale-br_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 545436
+MD5sum: 19034f090236b5243a045d2e4da0a948
+SHA1: e3865b5048e11b8766c73b90c5223aec1777d452
+SHA256: 9cf74955bf463b952a4879174e84d254e1844268fef0cfddab0804eeaf210f80
+Section: web
+Priority: optional
+Description: Breton language pack for Firefox
+ This package contains Breton translations and search plugins
+ for Firefox
+
+Package: firefox-locale-bs
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 641
+Replaces: language-pack-bs-base
+Filename: pool/main/f/firefox-locale-bs_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 583904
+MD5sum: 97281b65a7d150ef00d32379bcf179dc
+SHA1: 2586c9a8a3c71ef4aaf8ac3f03c0395184a24b24
+SHA256: c9b4647366b7d9371e965735f89c423b62c2d582686d8ad238208b303efdf4fc
+Section: web
+Priority: optional
+Description: Bosnian language pack for Firefox
+ This package contains Bosnian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ca
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 619
+Replaces: language-pack-ca-base
+Filename: pool/main/f/firefox-locale-ca_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 561926
+MD5sum: 7be79b784887fa87cf731ebe8d451c6a
+SHA1: 72f93acdc6f941696cfa5d1e136a724a99451e06
+SHA256: 235641f264beda3f1c8475afa5353b6734e1c437907edaaaee122af25707a12b
+Section: web
+Priority: optional
+Description: Catalan; Valencian language pack for Firefox
+ This package contains Catalan; Valencian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-cs
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 609
+Replaces: language-pack-cs-base
+Filename: pool/main/f/firefox-locale-cs_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 550468
+MD5sum: e69df3ab1c5cd89299106ff57736b0ec
+SHA1: 7c394e4cc679b05872f9a1abc5e6e09b917cb7a1
+SHA256: 4bd2428eff8601809950d3762a82f2e979e4ad7edc88c28c9982613252e44b73
+Section: web
+Priority: optional
+Description: Czech language pack for Firefox
+ This package contains Czech translations and search plugins
+ for Firefox
+
+Package: firefox-locale-csb
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 151
+Filename: pool/main/f/firefox-locale-csb_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127790
+MD5sum: c30a7dcc541b7cd5312cc1d7953355c1
+SHA1: f2be825598638dbf047a99a77d1d46e453ee95b3
+SHA256: accff5ce7072da6fe76dc3e28243e70d66b12a9240a72848fec8eb73fa17df25
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-cy
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 607
+Replaces: language-pack-cy-base
+Filename: pool/main/f/firefox-locale-cy_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 547658
+MD5sum: 000297eefb378f7f53050a35ca033048
+SHA1: 50013cbee1e4bb1574b9051d39b8322ad30b445d
+SHA256: ab5a9d38512e2b4ba656516967bb48c3b4e88ef6fe44e1e41b6db1f413466bfd
+Section: web
+Priority: optional
+Description: Welsh language pack for Firefox
+ This package contains Welsh translations and search plugins
+ for Firefox
+
+Package: firefox-locale-da
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 613
+Replaces: language-pack-da-base
+Filename: pool/main/f/firefox-locale-da_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 554730
+MD5sum: 60e0a7cd3c446cddf6e49c8596a2814b
+SHA1: 712290bb46e64de4d9eb0e49b2ee5372d2251a8d
+SHA256: 9f38a52936661fa9d0784949baf2db5ed7f98ad95f18b62c607cf908c7ef0f1d
+Section: web
+Priority: optional
+Description: Danish language pack for Firefox
+ This package contains Danish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-de
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 616
+Replaces: language-pack-de-base
+Filename: pool/main/f/firefox-locale-de_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 556944
+MD5sum: b5e34424ef6eb04e455515f9c4e7feae
+SHA1: 0b038a593c0f1740d884aaa383eeed8095598e17
+SHA256: b2b94a0ad382b037b81dbb40ad1c30e2ed0397f24797b18ec3fa8255efecacac
+Section: web
+Priority: optional
+Description: German language pack for Firefox
+ This package contains German translations and search plugins
+ for Firefox
+
+Package: firefox-locale-el
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 660
+Replaces: language-pack-el-base
+Filename: pool/main/f/firefox-locale-el_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 603262
+MD5sum: ad5296183bb96c6200dca45644fa4b48
+SHA1: ce331ad6ee6746bd9fca20c1a137b1dbb52142c5
+SHA256: de88b5de3331355938bb0dbd85f13ed89e68276b4cca90050d4dca4f970c0067
+Section: web
+Priority: optional
+Description: Greek language pack for Firefox
+ This package contains Greek translations and search plugins
+ for Firefox
+
+Package: firefox-locale-en
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 1059
+Replaces: language-pack-en-base
+Filename: pool/main/f/firefox-locale-en_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 815186
+MD5sum: 242d11aec0ff4b59cc1d942a275b6a54
+SHA1: f9e1a8c4543761487c28b637f1e8fa2e19df0a36
+SHA256: 24db4b51e3dbb1ab6deebc7b4985a011f888a1c373bf4770c44e320e0dc5f4cd
+Section: web
+Priority: optional
+Description: English language pack for Firefox
+ This package contains English translations and search plugins
+ for Firefox
+
+Package: firefox-locale-eo
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 646
+Replaces: language-pack-eo-base
+Filename: pool/main/f/firefox-locale-eo_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 587514
+MD5sum: 99e3380fc9c9d7242cd9131bcb4b3a40
+SHA1: f7fd2c08afff36dc525dfa3e9f7532af2666655c
+SHA256: fdbc0f426af4859aa6b914e75b8f1d1b4dd2375bd2438036922ba79c1cf39628
+Section: web
+Priority: optional
+Description: Esperanto language pack for Firefox
+ This package contains Esperanto translations and search plugins
+ for Firefox
+
+Package: firefox-locale-es
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 1849
+Replaces: language-pack-es-base
+Filename: pool/main/f/firefox-locale-es_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 1499082
+MD5sum: 949eae1778fc223efd3a2a14754e6098
+SHA1: fe17214ed26e78883519af7d751014293324099d
+SHA256: 749a0795f82dc1a1a583e9e2dedd2b547b2348777293d5e167a68d8b180dc173
+Section: web
+Priority: optional
+Description: Spanish; Castilian language pack for Firefox
+ This package contains Spanish; Castilian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-et
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 610
+Replaces: language-pack-et-base
+Filename: pool/main/f/firefox-locale-et_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 552152
+MD5sum: 7273cfcb65c65181f76d324be82895dd
+SHA1: bd614d27b266c6bf5dde810f5ddac8a8d1a15438
+SHA256: 4abae3e91b746381da30454720f0b89f1426105d15e96b7d2ce0887af865b745
+Section: web
+Priority: optional
+Description: Estonian language pack for Firefox
+ This package contains Estonian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-eu
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 629
+Replaces: language-pack-eu-base
+Filename: pool/main/f/firefox-locale-eu_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 570746
+MD5sum: e7eaad25c5e96d5701b91669f96d745e
+SHA1: 734e6fd04ff884aaf748ad97cd191e497594fcf9
+SHA256: 4c43aa03dee07033dfb612e96f3225b83becef11aad2f3956a796d5990b77efe
+Section: web
+Priority: optional
+Description: Basque language pack for Firefox
+ This package contains Basque translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fa
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 684
+Replaces: language-pack-fa-base
+Filename: pool/main/f/firefox-locale-fa_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 627572
+MD5sum: 41d77564d4ce4184692ab1e3aaabc2d1
+SHA1: 54b7f679d2a4f0894afc4d872e015ed688d8cb27
+SHA256: aa56afd528c299b8a2867378ed2d74cb84df0c5f541872eae105f9f3f4a915dc
+Section: web
+Priority: optional
+Description: Persian language pack for Firefox
+ This package contains Persian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fi
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 610
+Replaces: language-pack-fi-base
+Filename: pool/main/f/firefox-locale-fi_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 551366
+MD5sum: 2af730236b73b725ed78283c54000c55
+SHA1: bf13d4752d758f48563b91155e0da57cda4e3da1
+SHA256: c16ae9333ec8e72b7b8873e556b62c23d47f8735e8afaeecceeb9dbd4007201e
+Section: web
+Priority: optional
+Description: Finnish language pack for Firefox
+ This package contains Finnish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fr
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 625
+Replaces: language-pack-fr-base
+Filename: pool/main/f/firefox-locale-fr_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 566108
+MD5sum: d597c96062512837dd7724f417fa5068
+SHA1: 7b12cd442686e367cc5d0e14616e6d6eb9a70f72
+SHA256: 4cb879083400e5f68d0264b6e3bcd7fe1fea80cde8c6405754fdff27f9399126
+Section: web
+Priority: optional
+Description: French language pack for Firefox
+ This package contains French translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fy
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 617
+Replaces: language-pack-fy-base
+Filename: pool/main/f/firefox-locale-fy_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 555808
+MD5sum: 6e7599cea2e977620270c46e4074994a
+SHA1: ded63b4b1a0ff28a76d249f6bac98cea0dbefea4
+SHA256: 6a7047bfb939bcd2a2fd334ff575b29259c6fc33a8ce1887c8fb48a9fb4277e6
+Section: web
+Priority: optional
+Description: Western Frisian language pack for Firefox
+ This package contains Western Frisian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ga
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 631
+Replaces: language-pack-ga-base
+Filename: pool/main/f/firefox-locale-ga_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 569410
+MD5sum: 104b5ec33d9f454c784ac5d4321b69c8
+SHA1: c0cbf449adeddfc0d9d3e2e3eadbc88f04f9cb0a
+SHA256: 953194f79c5aa413e9237c2c143cd459f9a2c67cf55f41365c29842118cd5c3c
+Section: web
+Priority: optional
+Description: Irish language pack for Firefox
+ This package contains Irish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-gd
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 617
+Replaces: language-pack-gd-base
+Filename: pool/main/f/firefox-locale-gd_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 558840
+MD5sum: 5f57fa651c24edc48c6487221307e4a1
+SHA1: 68e653035db0dccd595e2be8dc5856800cabcd08
+SHA256: 4ce93c0d9e3a87e46e01836644c95e6feeed6481e03004459cd547d90a5bbd91
+Section: web
+Priority: optional
+Description: Gaelic; Scottish Gaelic language pack for Firefox
+ This package contains Gaelic; Scottish Gaelic translations and search plugins
+ for Firefox
+
+Package: firefox-locale-gl
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 611
+Replaces: language-pack-gl-base
+Filename: pool/main/f/firefox-locale-gl_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 552256
+MD5sum: cf68e0cb65e0ce8a75dc6c89d0d7877f
+SHA1: 1e2edc36061bd58a3f316aa7fd1872e753332eff
+SHA256: 512f2272d78436c0c873c11c0c60870c3dc500cbf3727d51c7750038c81bee9c
+Section: web
+Priority: optional
+Description: Galician language pack for Firefox
+ This package contains Galician translations and search plugins
+ for Firefox
+
+Package: firefox-locale-gu
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 646
+Replaces: language-pack-gu-base
+Filename: pool/main/f/firefox-locale-gu_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 586084
+MD5sum: 4e170ffd3f7266cede0303836c513f10
+SHA1: 7e9f6b805fb75a048a848fb85814ee0e24e02bee
+SHA256: 249d3c3acbb11e7bee07dd6d21447d5ff975198819b60b0bb32a1e58a9b1ddc3
+Section: web
+Priority: optional
+Description: Gujarati language pack for Firefox
+ This package contains Gujarati translations and search plugins
+ for Firefox
+
+Package: firefox-locale-he
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 638
+Replaces: language-pack-he-base
+Filename: pool/main/f/firefox-locale-he_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 581216
+MD5sum: 68bcab00d3ebddfd5526615770925ff3
+SHA1: a870052ad1de1737c9188ca5af134c1657c086be
+SHA256: e6e9eff582639ed163f9ea5cf6b4a7931107a4c5699c05826e543a17b89cbbd8
+Section: web
+Priority: optional
+Description: Hebrew language pack for Firefox
+ This package contains Hebrew translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hi
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 671
+Replaces: language-pack-hi-base
+Filename: pool/main/f/firefox-locale-hi_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 612300
+MD5sum: caaced7dd24bc9f2f793be18c32b8ae1
+SHA1: c15cf09c070b6c4e06f78c88be002adb6626c986
+SHA256: a7c5822ee7b87dcbf139da3ac830c06820ee8a36bb21c08aaa59957fff5b510e
+Section: web
+Priority: optional
+Description: Hindi language pack for Firefox
+ This package contains Hindi translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hr
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 640
+Replaces: language-pack-hr-base
+Filename: pool/main/f/firefox-locale-hr_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 582082
+MD5sum: 0fb91c4f6fe9cc35ecfcde1df8076095
+SHA1: c7ce4e192246a5190528e0dd336b63c714280278
+SHA256: 6d642876fe087e47de8563b26650cc05abf6dc1889651f3849acea0681b987f7
+Section: web
+Priority: optional
+Description: Croatian language pack for Firefox
+ This package contains Croatian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hsb
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 632
+Replaces: language-pack-hsb-base
+Filename: pool/main/f/firefox-locale-hsb_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 572282
+MD5sum: 1371af7d62b0da526300717e755aeff8
+SHA1: 1f3bbd9157f59f4df6521cd6004c3e9a6d173138
+SHA256: 3b17f54aa1ab2b8c81bdb28da550aa296de1a2b116a813dd2e77dbd380edd8a5
+Section: web
+Priority: optional
+Description: Sorbian, Upper language pack for Firefox
+ This package contains Sorbian, Upper translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hu
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 615
+Replaces: language-pack-hu-base
+Filename: pool/main/f/firefox-locale-hu_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 557350
+MD5sum: ac3085383ccc43efebcfa39111b6e5b9
+SHA1: 6dc8ddd72cc9a16b6920bc9753d72c8d68f8aad0
+SHA256: 41a9922ab6a4d34fe2178974ecd96cd539c9d7f71d134b3d461b19a8793720b4
+Section: web
+Priority: optional
+Description: Hungarian language pack for Firefox
+ This package contains Hungarian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hy
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 697
+Replaces: language-pack-hy-base
+Filename: pool/main/f/firefox-locale-hy_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 638994
+MD5sum: ca1abba3c898899b2b0ce37d0a70a290
+SHA1: 3a990beefa8269a5bb5c29dcd6cea4d1de4da2c5
+SHA256: 4efccc26c189664883000e9a09a1ef614dfbb71d7ac3e904d1bb644829de2b81
+Section: web
+Priority: optional
+Description: Armenian language pack for Firefox
+ This package contains Armenian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-id
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 598
+Replaces: language-pack-id-base
+Filename: pool/main/f/firefox-locale-id_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 540136
+MD5sum: 0983674c1321c0c11a178b22fba61fb2
+SHA1: 07bbf2146269522748efb5340a04e8750e6457e0
+SHA256: 95c0805ef1bfc19031d2d288c7c9dfcaac9952f92368672fe89388bc726d9d32
+Section: web
+Priority: optional
+Description: Indonesian language pack for Firefox
+ This package contains Indonesian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-is
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 647
+Replaces: language-pack-is-base
+Filename: pool/main/f/firefox-locale-is_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 589078
+MD5sum: 939ca6f09907d99440f5591c4db7c50f
+SHA1: 5fb99ef0df4a0d96eba7967692239de8b583f1a5
+SHA256: 5acba148d12baa6dee5b288df1a5bb423954601d09045cdb434f586543a20788
+Section: web
+Priority: optional
+Description: Icelandic language pack for Firefox
+ This package contains Icelandic translations and search plugins
+ for Firefox
+
+Package: firefox-locale-it
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 522
+Replaces: language-pack-it-base
+Filename: pool/main/f/firefox-locale-it_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 458836
+MD5sum: 76427c82dfdff388092c183ed84d1601
+SHA1: c8f3d151d155ff3bbed9acbc45d289927688ccaf
+SHA256: 4ea984fb0384c1e6566a03603e4ee19d476b7083a0386f81160fb7b109f38e37
+Section: web
+Priority: optional
+Description: Italian language pack for Firefox
+ This package contains Italian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ja
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 643
+Replaces: language-pack-ja-base
+Filename: pool/main/f/firefox-locale-ja_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 584956
+MD5sum: 51111bf5c809b786423d1b375cc7c154
+SHA1: 370e0d871a75c2853c9c2bd10f66c243b983baae
+SHA256: 76eaf3a2f92bddfaeaf8149e0c5dbe6f8f90f31e29948875820ebfe6d9f37cdd
+Section: web
+Priority: optional
+Description: Japanese language pack for Firefox
+ This package contains Japanese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ka
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 151
+Filename: pool/main/f/firefox-locale-ka_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127790
+MD5sum: cde4130fd9c45c967cd74738f4a2fdac
+SHA1: f920bafe169254e0b9abbc39b598c9dd0b5a08ba
+SHA256: 5beb8cd5f0f2dee57cf8fa94ae45283e63b0fc6fdb35c580aac42444eb13c7b2
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-kk
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 667
+Replaces: language-pack-kk-base
+Filename: pool/main/f/firefox-locale-kk_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 610844
+MD5sum: f360e74d1d5b627645f1fbad2dad2763
+SHA1: c50740a39fc5a267fe9c665bae4a331f4d7897a9
+SHA256: a8f4dcf3a61f37b74f5291252dfd01eea09bc1ecc12c015fb333ec4b2c33cd44
+Section: web
+Priority: optional
+Description: Kazakh language pack for Firefox
+ This package contains Kazakh translations and search plugins
+ for Firefox
+
+Package: firefox-locale-km
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 735
+Replaces: language-pack-km-base
+Filename: pool/main/f/firefox-locale-km_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 680888
+MD5sum: 75d99a014f7f1cabf9a1cb272443e863
+SHA1: 829ecf0c792ff6f2220b31009d0f36433c9c8f42
+SHA256: 7ce5d7cf5594dde4908389126b0f1ce0e6c591a56ea651a4a2f105e148c99ae3
+Section: web
+Priority: optional
+Description: Central Khmer language pack for Firefox
+ This package contains Central Khmer translations and search plugins
+ for Firefox
+
+Package: firefox-locale-kn
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 696
+Replaces: language-pack-kn-base
+Filename: pool/main/f/firefox-locale-kn_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 640096
+MD5sum: 9807cf80271407e9f1b6c0afd8d9c331
+SHA1: 5c6f729d4cc5b8c1002fef8fee70a6f9460e2959
+SHA256: abe25d3bdd0d759067a89b1f79fa195f0d3df85c77d8c13ec21bc3de7b267948
+Section: web
+Priority: optional
+Description: Kannada language pack for Firefox
+ This package contains Kannada translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ko
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 628
+Replaces: language-pack-ko-base
+Filename: pool/main/f/firefox-locale-ko_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 571158
+MD5sum: c5bccf123201fd67ebac88d48e546503
+SHA1: 586d6f54217942fd037093a1a2b26ed830943c8c
+SHA256: 4078bac2c1f1b6959547287bf6d51b83ec9c0001e8d91d989e7657c11228458f
+Section: web
+Priority: optional
+Description: Korean language pack for Firefox
+ This package contains Korean translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ku
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 151
+Filename: pool/main/f/firefox-locale-ku_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127782
+MD5sum: 5447db5b74a5a1e71a43128cc87176cd
+SHA1: 3176289a06bc735dc0b8702bcab3aeb0dc8b1786
+SHA256: 6d4a11b059be21408e30ad672fe56e7cd0d1724939782be7967273f5b44e1f61
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-lg
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 151
+Filename: pool/main/f/firefox-locale-lg_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127782
+MD5sum: 9fc8bfbd299cbc10db805cfb18eb3448
+SHA1: 93f6af1c89817141b2e17f6cf8c42ef8a16422cc
+SHA256: e76b2d42c27bd2c5beffae0453b04301c276462cafce645fbf6b572a3d26cf46
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-lt
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 649
+Replaces: language-pack-lt-base
+Filename: pool/main/f/firefox-locale-lt_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 591420
+MD5sum: 891c54eb029b7ff92550555c9aa20859
+SHA1: 8a33b373c91760e2f1f14f4d5799590dff1c302e
+SHA256: 5103f6e18899bcc857ee7ec8c9556dc0a3817a276f13c70cef39ec4d27b2b752
+Section: web
+Priority: optional
+Description: Lithuanian language pack for Firefox
+ This package contains Lithuanian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-lv
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 628
+Replaces: language-pack-lv-base
+Filename: pool/main/f/firefox-locale-lv_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 570812
+MD5sum: 4f80e4981cb89643250d49cc1afcb616
+SHA1: b33542a79601d877806a1ac1d805da8c294cf4d3
+SHA256: ee65e3026ac302df34f17eac13e84693f390d66a3e2820a7f60e4e60afb99f79
+Section: web
+Priority: optional
+Description: Latvian language pack for Firefox
+ This package contains Latvian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-mai
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 679
+Replaces: language-pack-mai-base
+Filename: pool/main/f/firefox-locale-mai_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 622562
+MD5sum: 01083bfdaf481d06aa9860f7de62580a
+SHA1: 2618b46eb0e9553ad81c4c41fe90a95cb29a7a46
+SHA256: 87aac030e1659df2b054241e19bdcba640abc569cc01225808ddc5cc48122449
+Section: web
+Priority: optional
+Description: Maithili language pack for Firefox
+ This package contains Maithili translations and search plugins
+ for Firefox
+
+Package: firefox-locale-mk
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 686
+Replaces: language-pack-mk-base
+Filename: pool/main/f/firefox-locale-mk_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 629740
+MD5sum: 2930081b896085f582cff85cecb8e202
+SHA1: e9b7abcff59020a6f45921fc6383065ff563e730
+SHA256: 52ffa9d05a0c48b2af42e8b87b536288c13ccdb6d2c02a13d97548ef7fa4fe93
+Section: web
+Priority: optional
+Description: Macedonian language pack for Firefox
+ This package contains Macedonian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ml
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 697
+Replaces: language-pack-ml-base
+Filename: pool/main/f/firefox-locale-ml_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 642314
+MD5sum: 44944862da7ff985fc28fdea29a1e444
+SHA1: 85a0f0ba984f2954d7c3e26d9321083b5702d630
+SHA256: 1590dc496b96dc322237a08987c47e882b6c612a4b978e0cab19796dc6d16c92
+Section: web
+Priority: optional
+Description: Malayalam language pack for Firefox
+ This package contains Malayalam translations and search plugins
+ for Firefox
+
+Package: firefox-locale-mn
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 151
+Filename: pool/main/f/firefox-locale-mn_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127786
+MD5sum: b995cc71ae49baa4d36b58aff3f73605
+SHA1: 7403aab14616bd2284637bdf2f274195c32247ae
+SHA256: 4235d5d179c1d78f95a315564745d0d7392cc9678c0d7a71fd9f870c5661b164
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-mr
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 676
+Replaces: language-pack-mr-base
+Filename: pool/main/f/firefox-locale-mr_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 620548
+MD5sum: 24a66e2314d662d25197561c3cea18d7
+SHA1: 0c83934302c9dace92f0171944f2e2838ece3eb8
+SHA256: ac63d94775b188ac2ab14ccd35d67ab8a34fa9711ea7ddc0ef53ff7dbcf10fac
+Section: web
+Priority: optional
+Description: Marathi language pack for Firefox
+ This package contains Marathi translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ms
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 656
+Replaces: language-pack-ms-base
+Filename: pool/main/f/firefox-locale-ms_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 598282
+MD5sum: 46fb6ad40c899bc2dcbbc3aaad16eccd
+SHA1: d7c40fd45bb13b6d75532ab66be626b793ef6d69
+SHA256: c46f6c17af54a4d57866227a5a52c06962566737b14c10039e2562c91e99a999
+Section: web
+Priority: optional
+Description: Malay language pack for Firefox
+ This package contains Malay translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nb
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 609
+Replaces: language-pack-nb-base
+Filename: pool/main/f/firefox-locale-nb_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 546556
+MD5sum: eea2ec25c9545188052cf1f31cfb1969
+SHA1: 0351bd0ee41feb2f4ec3cfaecbf14413bba72ab6
+SHA256: 0c3b0ea586066b8f409dd7668b7a029e7ad420266fe0698fb759a65144420205
+Section: web
+Priority: optional
+Description: Bokmål, Norwegian; Norwegian Bokmål language pack for Firefox
+ This package contains Bokmål, Norwegian; Norwegian Bokmål translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nl
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 605
+Replaces: language-pack-nl-base
+Filename: pool/main/f/firefox-locale-nl_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 546704
+MD5sum: 773b445185d8fadb0be0e0889b6196ec
+SHA1: 07fa761330f5123a86e88689894877e6e3dc9b0e
+SHA256: ebcac1477e2635b05d6b463b876a77739bab50a7a79438402ff79a879f417cb3
+Section: web
+Priority: optional
+Description: Dutch; Flemish language pack for Firefox
+ This package contains Dutch; Flemish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nn
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 603
+Replaces: language-pack-nn-base
+Filename: pool/main/f/firefox-locale-nn_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 540966
+MD5sum: 8afb8da0387f251a6d4709360d3db6c6
+SHA1: 320fb44d11b053c2af91a5671a89895cbe8aaddd
+SHA256: 534e496038a374da956ce22f5e661bde04d2f6574820d066de39067193f4fce4
+Section: web
+Priority: optional
+Description: Norwegian Nynorsk; Nynorsk, Norwegian language pack for Firefox
+ This package contains Norwegian Nynorsk; Nynorsk, Norwegian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nso
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 151
+Filename: pool/main/f/firefox-locale-nso_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127794
+MD5sum: 16a0400b2162e2a893a50f47f90e08e2
+SHA1: f451b7155e690907588525a01830223f4fb62a0d
+SHA256: 3b6412fceed4645e2587dc620170ca5e4f3b17a0cdb67da6df366f1e978a5808
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-oc
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 151
+Filename: pool/main/f/firefox-locale-oc_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127782
+MD5sum: 6fd3280d95809e6b3b36da779f4c49d3
+SHA1: 50060e53aba8bbeea47e12adb33b3568b81dba64
+SHA256: 7360bde17111a07d980f6867791d6134fef3cba2e06b5e4052315b4816102729
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-or
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 689
+Replaces: language-pack-or-base
+Filename: pool/main/f/firefox-locale-or_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 632750
+MD5sum: 946050f9f3b1f95a8afe3cc5f403372e
+SHA1: f1fb8a06ad121691000ff2f5afe9e33072cfe076
+SHA256: 6c05719aaa36aac5c9f729c1f1b5fd65eb3c9536a2596d06d92b16d0550ffe02
+Section: web
+Priority: optional
+Description: Oriya language pack for Firefox
+ This package contains Oriya translations and search plugins
+ for Firefox
+
+Package: firefox-locale-pa
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 663
+Replaces: language-pack-pa-base
+Filename: pool/main/f/firefox-locale-pa_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 605388
+MD5sum: 66e52d84e6dae2fed6e7d6bdf89d34d8
+SHA1: d2e0db72ee84e622458539ea1a4b84fdb833a813
+SHA256: c1532b47d99cace697396a1cfdc6ec4cdd7b9b55428f610101346c9fd35b6521
+Section: web
+Priority: optional
+Description: Panjabi; Punjabi language pack for Firefox
+ This package contains Panjabi; Punjabi translations and search plugins
+ for Firefox
+
+Package: firefox-locale-pl
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 553
+Replaces: language-pack-pl-base
+Filename: pool/main/f/firefox-locale-pl_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 492802
+MD5sum: 1891ee967c84e6f9bc1a736009718512
+SHA1: de70c73dc09d5138ca58dc1e72eb8403412cbe29
+SHA256: efb2341664c238f38f4155e547d29116a1afd77278e761853c6b86256407d439
+Section: web
+Priority: optional
+Description: Polish language pack for Firefox
+ This package contains Polish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-pt
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 1075
+Replaces: language-pack-pt-base
+Filename: pool/main/f/firefox-locale-pt_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 929982
+MD5sum: 1673dbb99de7124a0141f9b6aae7e9e5
+SHA1: 61a52340fc23dd2b92d60c622a32bd0fd6283cf1
+SHA256: 719d4bf1745b38f5e96a1d4fe67808e96c818e2125ea1feeb2ce31f8ec5a0a82
+Section: web
+Priority: optional
+Description: Portuguese language pack for Firefox
+ This package contains Portuguese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ro
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 657
+Replaces: language-pack-ro-base
+Filename: pool/main/f/firefox-locale-ro_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 598938
+MD5sum: 481aa4ab99e2f25822ef6b676488c88b
+SHA1: be1f245bb36b293448bdbb776a684dcb20764a3b
+SHA256: 0edcb0c0beba25097f6f52a1b52c2d06fadf9390d7aa987259d4e39460466681
+Section: web
+Priority: optional
+Description: Romanian language pack for Firefox
+ This package contains Romanian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ru
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 568
+Replaces: language-pack-ru-base
+Filename: pool/main/f/firefox-locale-ru_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 507326
+MD5sum: d2c422026b278e95e87dd77f28b13d52
+SHA1: 4fcb05c244f5a7397ff59ee74e8790ea0b617a3b
+SHA256: 73c1a70a4e00d66da161817025a142322ff8f1ef32de69bc0f1b3e4fb433756b
+Section: web
+Priority: optional
+Description: Russian language pack for Firefox
+ This package contains Russian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-si
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 702
+Replaces: language-pack-si-base
+Filename: pool/main/f/firefox-locale-si_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 646328
+MD5sum: 93fd88b09acb9ff093d0a6fe3f62d464
+SHA1: ba791ba30445bab1093b736eda5955929556d02b
+SHA256: 504890cc9afcb62b99be82f2a9789c07b09daf195fa04a4bb82a10cdbdfe4468
+Section: web
+Priority: optional
+Description: Sinhala; Sinhalese language pack for Firefox
+ This package contains Sinhala; Sinhalese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sk
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 630
+Replaces: language-pack-sk-base
+Filename: pool/main/f/firefox-locale-sk_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 572640
+MD5sum: 21f05a991ac7be9255b7f06f9f35d0bd
+SHA1: f517d3fd9ca00937775171508840a2ae316b9282
+SHA256: f03db63ebb747c8ea8f42c28c1f61e9f3ee7bb730770a5541697c554779c5a37
+Section: web
+Priority: optional
+Description: Slovak language pack for Firefox
+ This package contains Slovak translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sl
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 605
+Replaces: language-pack-sl-base
+Filename: pool/main/f/firefox-locale-sl_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 546060
+MD5sum: e1a8d2e8dd40a846521df19ecc014ced
+SHA1: 6742b26588eef634a047904b0c59b2a91b5e69a6
+SHA256: f4f294b4a9e1a37223c1ffd9f622adf020d039bf22c8d2562f537c87160dcab5
+Section: web
+Priority: optional
+Description: Slovenian language pack for Firefox
+ This package contains Slovenian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sq
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 649
+Replaces: language-pack-sq-base
+Filename: pool/main/f/firefox-locale-sq_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 591098
+MD5sum: 2926765a37b9434815d4efdb62d4ec05
+SHA1: 240a627bf1ad2ba1f33db58530762cb2ce66c8ca
+SHA256: 3677e6620d2dde0d4c4ef89f2594440d2c9a7b1d5d984baef188c444b526ad9a
+Section: web
+Priority: optional
+Description: Albanian language pack for Firefox
+ This package contains Albanian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sr
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 640
+Replaces: language-pack-sr-base
+Filename: pool/main/f/firefox-locale-sr_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 581828
+MD5sum: 5441cf3d817006ecbee067ef4a6ddd53
+SHA1: 12c1fd91e6194b9426c3e412f3ec91a80404b15a
+SHA256: 5fbf4d325451b950155a828aced2afa5b6342d495ee3b781ed872d473a4d44ff
+Section: web
+Priority: optional
+Description: Serbian language pack for Firefox
+ This package contains Serbian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sv
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 614
+Replaces: language-pack-sv-base
+Filename: pool/main/f/firefox-locale-sv_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 552338
+MD5sum: 4799b4029d9dbf9902f278d940d7f3c1
+SHA1: 3dc3ae3a5f1c1cc23404c0eaa6e9886049d36bc7
+SHA256: c2b475686af4d5fa2de3ff5eef3f7c5ffbcaaa2a100e5f7626669bb476156358
+Section: web
+Priority: optional
+Description: Swedish language pack for Firefox
+ This package contains Swedish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sw
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 151
+Filename: pool/main/f/firefox-locale-sw_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127788
+MD5sum: 4477ae687b76914cb58c8e38630c6941
+SHA1: 165928dd8ff1763b066d375cc03fc5efac1d25e2
+SHA256: e433d3593c6bb1aa3cb347d88f41c1886f61c63d70d40becc91f292273d1662a
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-ta
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 669
+Replaces: language-pack-ta-base
+Filename: pool/main/f/firefox-locale-ta_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 613762
+MD5sum: 174d5c08bb648e940a8d6d9e59722cd9
+SHA1: b611b3c14650f9ea1e37ae4b39a95640541b39df
+SHA256: e3be1031817f12c9218ee2780fd332a4889d80a8c67f76a645b60c277e052893
+Section: web
+Priority: optional
+Description: Tamil language pack for Firefox
+ This package contains Tamil translations and search plugins
+ for Firefox
+
+Package: firefox-locale-te
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 687
+Replaces: language-pack-te-base
+Filename: pool/main/f/firefox-locale-te_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 630500
+MD5sum: c42ce0dee56ce52b28598cb86153558e
+SHA1: 5e9e62290a3f2eb2d72ef219afe198c7b0eb38f1
+SHA256: 625d38c1684c0b5fd01fed7c5f493050ef78755e2a30f99fb05c9257d13d646a
+Section: web
+Priority: optional
+Description: Telugu language pack for Firefox
+ This package contains Telugu translations and search plugins
+ for Firefox
+
+Package: firefox-locale-th
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 695
+Replaces: language-pack-th-base
+Filename: pool/main/f/firefox-locale-th_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 639048
+MD5sum: 9cf4f60dff8d833311446ca936c0b8dc
+SHA1: 129aea7d4b102e14bac685b08537d6be9c7d3f24
+SHA256: bbebc15cdd87bdfa8d63e79501be239983acc788be89f8efcca461a65d6951d9
+Section: web
+Priority: optional
+Description: Thai language pack for Firefox
+ This package contains Thai translations and search plugins
+ for Firefox
+
+Package: firefox-locale-tr
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 620
+Replaces: language-pack-tr-base
+Filename: pool/main/f/firefox-locale-tr_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 563092
+MD5sum: 476e46458f590d79392e1af901dbc8dd
+SHA1: 5c3ebd3b7b911e006741023e1396c7991d410408
+SHA256: c211f2338359d9f0d05bd6d3809a547518bd0c858c17d7044163aee873d91c23
+Section: web
+Priority: optional
+Description: Turkish language pack for Firefox
+ This package contains Turkish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-uk
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 658
+Replaces: language-pack-uk-base
+Filename: pool/main/f/firefox-locale-uk_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 602080
+MD5sum: 273de6e2c0e15db9a6d9b840b4f835b8
+SHA1: 445e7cab780067cc2af0283590e7e380a5ea4551
+SHA256: dc5ae1a4b097c263ff1eda318e17d488c7d4b99f09a92840f639275094dbee39
+Section: web
+Priority: optional
+Description: Ukrainian language pack for Firefox
+ This package contains Ukrainian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-uz
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 659
+Replaces: language-pack-uz-base
+Filename: pool/main/f/firefox-locale-uz_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 601808
+MD5sum: 492269394ffe4ff38e2c3fcafb13f5ce
+SHA1: 2e7a4209892e24ea4de28fcfb923b9d87a866c6a
+SHA256: 3f0bb0729d2453b32910b86e2db02b7d59fbcc7bb4db7b5aee2c4f4b93b3b89c
+Section: web
+Priority: optional
+Description: Uzbek language pack for Firefox
+ This package contains Uzbek translations and search plugins
+ for Firefox
+
+Package: firefox-locale-vi
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 629
+Replaces: language-pack-vi-base
+Filename: pool/main/f/firefox-locale-vi_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 572264
+MD5sum: 0856bd62f221c946fd39612136429bf0
+SHA1: 7ef286260bb11f4edb300e2ed260df496416274a
+SHA256: d07495d92f9f4178dd593a8a881cbae25613a9150feace40812a16f9698611d2
+Section: web
+Priority: optional
+Description: Vietnamese language pack for Firefox
+ This package contains Vietnamese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-xh
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 609
+Replaces: language-pack-xh-base
+Filename: pool/main/f/firefox-locale-xh_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 551358
+MD5sum: 6fe632f803695877dfabe7cd676824b0
+SHA1: abbded7fc2775d1e160f6361d2ba32820eadf26f
+SHA256: 85d63e33282c85e33e780de82ee587d2a9cace29ce2e3419e2398cd7b348b30a
+Section: web
+Priority: optional
+Description: Xhosa language pack for Firefox
+ This package contains Xhosa translations and search plugins
+ for Firefox
+
+Package: firefox-locale-zh-hans
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 649
+Replaces: language-pack-zh-hans-base
+Filename: pool/main/f/firefox-locale-zh-hans_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 586722
+MD5sum: 268c4fdd79f685ae555caf69a611be02
+SHA1: f7e041c4044aacb37132cc5ddb7970d769efe195
+SHA256: 41af146b6d55e29b3868735c2a349e5d5197e66ca96a1504e6c6739744429d6b
+Section: web
+Priority: optional
+Description: Simplified Chinese language pack for Firefox
+ This package contains Simplified Chinese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-zh-hant
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 635
+Replaces: language-pack-zh-hant-base
+Filename: pool/main/f/firefox-locale-zh-hant_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 575040
+MD5sum: 414791080c78539eca4a24be099ff9eb
+SHA1: f41b09f3b6e907c5f336fd1958ca413f7d6af2c8
+SHA256: ab7c96148ed035b844e589544344df68f4fbc2788ccdf760af2964940c2d602a
+Section: web
+Priority: optional
+Description: Traditional Chinese language pack for Firefox
+ This package contains Traditional Chinese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-zu
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 151
+Filename: pool/main/f/firefox-locale-zu_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 127786
+MD5sum: 9df16a63707ac15f53a4cd12b9a87eb8
+SHA1: 7b20c45e9980aec3bc97b54855cda53fb884b553
+SHA256: 4ec92bf1e4f873cc03e06430b37b8d20d9720a05290598464376f84de52b6406
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-mozsymbols
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 53905
+Filename: pool/main/f/firefox-mozsymbols_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 54420502
+MD5sum: b49bc3b6c89f0b9bc3f8a04cb67e2a10
+SHA1: 5c64f88043e715a26b5ef4110c3158923f1d065f
+SHA256: ded99c6f8506c331c5d83ed77195ef27816009d550619f280e11460319cf0ff9
+Section: debug
+Priority: extra
+Description: Safe and easy web browser from Mozilla - Breakpad symbols
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the Firefox symbols in a format expected by Mozilla's
+ Breakpad. Eventually this package should go away and the symbol upload be
+ implemented in soyuz (or other builders that build this package)
+
+Package: firefox-testsuite
+Source: firefox
+Version: 44.0.2+build1-0ubuntu0.14.04.1
+Architecture: amd64
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 150
+Depends: firefox (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-af (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-an (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ar (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-as (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ast (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-az (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-be (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-bg (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-bn (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-br (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-bs (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ca (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-cs (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-csb (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-cy (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-da (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-de (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-el (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-en (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-eo (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-es (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-et (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-eu (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-fa (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-fi (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-fr (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-fy (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ga (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-gd (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-gl (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-gu (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-he (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-hi (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-hr (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-hsb (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-hu (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-hy (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-id (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-is (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-it (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ja (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ka (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-kk (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-km (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-kn (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ko (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ku (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-lg (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-lt (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-lv (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-mai (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-mk (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ml (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-mn (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-mr (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ms (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-nb (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-nl (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-nn (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-nso (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-oc (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-or (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-pa (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-pl (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-pt (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ro (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ru (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-si (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-sk (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-sl (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-sq (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-sr (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-sv (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-sw (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-ta (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-te (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-th (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-tr (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-uk (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-uz (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-vi (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-xh (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-zh-hans (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-zh-hant (= 44.0.2+build1-0ubuntu0.14.04.1), firefox-locale-zu (= 44.0.2+build1-0ubuntu0.14.04.1), python, dbus-x11, xvfb, make, notify-osd, metacity, language-pack-en-base, language-pack-es-base, language-pack-fr-base, language-pack-pt-base, fonts-arabeyes, fonts-kacst, fonts-takao-mincho, fonts-takao-gothic, fonts-wqy-zenhei | ttf-wqy-zenhei, fonts-arphic-uming, fonts-arphic-ukai | ttf-arphic-ukai, fonts-nanum, fonts-nanum-coding, fonts-unfonts-core, fonts-liberation, gnome-session, gnome-settings-daemon, ubuntu-settings, light-themes, unzip, hunspell-en-us, libgl1-mesa-dri
+Filename: pool/main/f/firefox-testsuite_44.0.2+build1-0ubuntu0.14.04.1_amd64.deb
+Size: 128182
+MD5sum: 6f7a784ac24f830658b6b50d52d4f237
+SHA1: e10ef0d8f2c22df56467a91094112e9e82d7d3de
+SHA256: 523db157e537de3442c8fb222ec5da77c3c7ab29be9b5c3da39712fef366af22
+Section: misc
+Priority: extra
+Description: Safe and easy web browser from Mozilla - testsuite
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the Firefox testsuite
+

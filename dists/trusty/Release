@@ -1,0 +1,28 @@
+Origin: d33tah.github.io/afl-sid-repo
+Label: afl-sid repository
+Codename: sid
+Date: Wed, 02 Sep 2015 22:24:08 UTC
+Architectures: amd64
+Components: main
+Description: afl-sid repository
+MD5Sum:
+ e4d793cc78cd1fc0f50b81be96faedf9 65430 main/binary-amd64/Packages
+ 63d3af75ca19f367fa4959d78a985f58 13069 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Release
+SHA1:
+ 87afa6a5104e97b011cce5c6881a633d1d509e84 65430 main/binary-amd64/Packages
+ efde5e91115661926a105cfd0cf421a61281375b 13069 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Release
+SHA256:
+ 4f3472c02bca45382c17550488773540cc8f0c9d8ebd4e69d7bea92ac359d458 65430 main/binary-amd64/Packages
+ ed10a4a26843afc93539fa51d2e388647082428f28ea0f985d6f84d575bd716e 13069 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Release
